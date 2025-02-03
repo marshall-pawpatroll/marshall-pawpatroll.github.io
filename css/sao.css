@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupar toda la pantalla */
+    margin: 0;
+    text-align: center;
+}
+
+#buton1, #buton2 {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#buton1 {
+    background-color: red;
+    color: white;
+}
+
+#buton2 {
+    background-color: black;
+    color: white;
+}
+
+#valentine-message {
+    font-size: 45px;
+    font-weight: bold;
+    color: red;
+}
+
+#valentine-image, #new-image {
+    max-width: 200px; /* Ajustar tamaño */
+    height: auto;
+}
+
+#new-text {
+    font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    display: none;
+}
+
+#new-image {
+    display: none;
+}
+
+}
